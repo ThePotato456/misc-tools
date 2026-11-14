@@ -7,7 +7,7 @@
 **Convert PNG images to JPG. Single files, folders, or drag and drop.**
 
 [![Version](https://img.shields.io/badge/version-0.1.0-blue)](CHANGELOG.md)
-[![Release](https://img.shields.io/github/v/release/ThePotato456/misc-tools?filter=png2jpg-py-*&label=release)](https://github.com/ThePotato456/misc-tools/releases?q=png2jpg-py&expanded=true)
+[![Release](https://img.shields.io/github/v/release/ThePotato456/misc-tools?label=release)](https://github.com/ThePotato456/misc-tools/releases/latest)
 [![Platform](https://img.shields.io/badge/platform-Windows-0078D6?logo=windows&logoColor=white)](#install)
 [![Python](https://img.shields.io/badge/python-3.10%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![Pillow](https://img.shields.io/badge/built%20with-Pillow-informational)](https://python-pillow.org/)
@@ -51,7 +51,7 @@ Existing JPGs are skipped unless `-f` is given. JPEG has no transparency, so tra
 
 ## Install
 
-Download `png2jpg.exe` from the [latest release](https://github.com/ThePotato456/misc-tools/releases?q=png2jpg-py&expanded=true). No installer and no Python needed.
+Download `png2jpg.exe` from the [latest release](https://github.com/ThePotato456/misc-tools/releases/latest). No installer and no Python needed.
 
 ## Build from source
 
@@ -71,7 +71,7 @@ python png2jpg.py --help
 ## Links
 
 - [Changelog](CHANGELOG.md)
-- [All png2jpg releases](https://github.com/ThePotato456/misc-tools/releases?q=png2jpg-py&expanded=true)
+- [Latest release](https://github.com/ThePotato456/misc-tools/releases/latest)
 - [Other tools in misc-tools](https://github.com/ThePotato456/misc-tools)
 
 ---
