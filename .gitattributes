@@ -1,0 +1,6 @@
+# Line endings: git normalizes text to LF in the repo. Scripts and Makefiles also stay LF on checkout everywhere,
+# since bash fails on CRLF ($'\r': command not found), even on Windows with core.autocrlf=true.
+* text=auto
+*.sh text eol=lf
+Makefile text eol=lf
+*.mk text eol=lf
