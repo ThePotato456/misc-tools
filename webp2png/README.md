@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="assets/banner.png" alt="webp2png banner" width="100%">
+
 # 🖼️ webp2png
 
 **Convert WebP images to PNG. Single files, folders, or drag and drop.**

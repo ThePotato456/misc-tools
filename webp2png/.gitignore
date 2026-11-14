@@ -15,6 +15,7 @@ dist/
 # Images (test inputs/outputs)
 *.webp
 *.png
+!assets/*.png
 
 # Editor / OS / local tooling
 .vscode/
