@@ -1,0 +1,65 @@
+# Each tool's private/ folder is its own repo (development, notes, test data); only the staged public files
+# beside it are tracked here. See <tool>/private/Makefile: make stage-public.
+*/private/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Build artifacts
+build/
+dist/
+*.spec.bak
+
+# Node
+node_modules/
+
+# Tool input/output data and media
+**/input/
+**/output/
+*.webp
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.mp4
+*.mkv
+*.webm
+*.mov
+
+# Env / secrets
+.env
+.env.*
+*.key
+*.pem
+
+# Logs / temp
+*.log
+*.tmp
+*.bak
+
+# OS / editors
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+.claude/
+
+# Misc private/local
+*.sqlite
+*.db
+*.pfx
+*.p12
+id_rsa*
+*.secret
+secrets.*
+.claude/
+CLAUDE.md
