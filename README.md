@@ -16,9 +16,9 @@
 
 | Tool | What it does | Needs | Download |
 | --- | --- | --- | --- |
-| 🎬 [**vid2cord**](vid2cord/) | Shrinks a video to fit Discord's upload limit | ffmpeg | [![vid2cord](https://img.shields.io/github/v/release/ThePotato456/misc-tools?filter=vid2cord-*&label=vid2cord)](https://github.com/ThePotato456/misc-tools/releases?q=vid2cord&expanded=true) |
-| 🖼️ [**webp2png**](webp2png/) | Converts WebP images to PNG | none | [![webp2png](https://img.shields.io/github/v/release/ThePotato456/misc-tools?filter=webp2png-*&label=webp2png)](https://github.com/ThePotato456/misc-tools/releases?q=webp2png&expanded=true) |
-| 📷 [**png2jpg**](png2jpg/) | Converts PNG images to JPG | none | [![png2jpg](https://img.shields.io/github/v/release/ThePotato456/misc-tools?filter=png2jpg-*&label=png2jpg)](https://github.com/ThePotato456/misc-tools/releases?q=png2jpg&expanded=true) |
+| 🎬 [**vid2cord**](vid2cord/README.md) | Shrinks a video to fit Discord's upload limit | ffmpeg | [![vid2cord](https://img.shields.io/github/v/release/ThePotato456/misc-tools?filter=vid2cord-*&label=vid2cord)](https://github.com/ThePotato456/misc-tools/releases?q=vid2cord&expanded=true) |
+| 🖼️ [**webp2png**](webp2png/README.md) | Converts WebP images to PNG | none | [![webp2png](https://img.shields.io/github/v/release/ThePotato456/misc-tools?filter=webp2png-*&label=webp2png)](https://github.com/ThePotato456/misc-tools/releases?q=webp2png&expanded=true) |
+| 📷 [**png2jpg**](png2jpg/README.md) | Converts PNG images to JPG | none | [![png2jpg](https://img.shields.io/github/v/release/ThePotato456/misc-tools?filter=png2jpg-*&label=png2jpg)](https://github.com/ThePotato456/misc-tools/releases?q=png2jpg&expanded=true) |
 
 Every tool works the same way:
 
@@ -46,7 +46,7 @@ vid2cord video.mp4 -s 10      # 10 MB limit
 vid2cord clips -r             # every video under a folder
 ```
 
-Reads `.mp4 .mov .mkv .webm .avi .m4v .flv .wmv .ts`. [Full docs →](vid2cord/)
+Reads `.mp4 .mov .mkv .webm .avi .m4v .flv .wmv .ts`. [Full docs →](vid2cord/README.md)
 
 ---
 
@@ -64,7 +64,7 @@ webp2png image.webp
 webp2png downloads -r -o png  # a whole folder tree into ./png
 ```
 
-[Full docs →](webp2png/)
+[Full docs →](webp2png/README.md)
 
 ---
 
@@ -84,7 +84,7 @@ png2jpg image.png -q 80 -b 000000   # smaller file, black background
 png2jpg screenshots -r
 ```
 
-[Full docs →](png2jpg/)
+[Full docs →](png2jpg/README.md)
 
 ---
 
