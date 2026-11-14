@@ -18,9 +18,9 @@
 
 | Tool | What it does | Needs | Download |
 | --- | --- | --- | --- |
-| 🎬 [**vid2cord**](vid2cord-py/README.md) | Shrinks a video to fit Discord's upload limit | ffmpeg | [![vid2cord](https://img.shields.io/github/v/release/ThePotato456/misc-tools?filter=vid2cord-py-*&label=vid2cord)](https://github.com/ThePotato456/misc-tools/releases?q=vid2cord-py&expanded=true) |
-| 🖼️ [**webp2png**](webp2png-py/README.md) | Converts WebP images to PNG | none | [![webp2png](https://img.shields.io/github/v/release/ThePotato456/misc-tools?filter=webp2png-py-*&label=webp2png)](https://github.com/ThePotato456/misc-tools/releases?q=webp2png-py&expanded=true) |
-| 📷 [**png2jpg**](png2jpg-py/README.md) | Converts PNG images to JPG | none | [![png2jpg](https://img.shields.io/github/v/release/ThePotato456/misc-tools?filter=png2jpg-py-*&label=png2jpg)](https://github.com/ThePotato456/misc-tools/releases?q=png2jpg-py&expanded=true) |
+| 🎬 [**vid2cord**](vid2cord-py/README.md) | Shrinks a video to fit Discord's upload limit | ffmpeg | [![vid2cord](https://img.shields.io/github/v/release/ThePotato456/misc-tools?label=vid2cord)](https://github.com/ThePotato456/misc-tools/releases/latest) |
+| 🖼️ [**webp2png**](webp2png-py/README.md) | Converts WebP images to PNG | none | [![webp2png](https://img.shields.io/github/v/release/ThePotato456/misc-tools?label=webp2png)](https://github.com/ThePotato456/misc-tools/releases/latest) |
+| 📷 [**png2jpg**](png2jpg-py/README.md) | Converts PNG images to JPG | none | [![png2jpg](https://img.shields.io/github/v/release/ThePotato456/misc-tools?label=png2jpg)](https://github.com/ThePotato456/misc-tools/releases/latest) |
 
 Every tool works the same way:
 
