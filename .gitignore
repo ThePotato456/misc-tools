@@ -1,6 +1,5 @@
-# Each tool's private/ folder is its own repo (development, notes, test data); only the staged public files
-# beside it are tracked here. See <tool>/private/Makefile: make stage-public.
-*/private/
+# The public files here are staged from misc-tools/private (the root and each tool's own private repo).
+# Edit them there and run make stage-public; changes made here are overwritten.
 
 # Python
 __pycache__/
@@ -61,5 +60,4 @@ desktop.ini
 id_rsa*
 *.secret
 secrets.*
-.claude/
 CLAUDE.md
