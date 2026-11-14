@@ -27,6 +27,8 @@ node_modules/
 *.png
 *.jpg
 *.jpeg
+!assets/*.png
+!*/assets/*.png
 *.gif
 *.mp4
 *.mkv

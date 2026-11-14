@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="assets/banner.png" alt="misc-tools banner" width="100%">
+
 # misc-tools
 
 **Small, single-purpose utilities. One job each, no setup: drop files on the exe, or run it from the command line.**
