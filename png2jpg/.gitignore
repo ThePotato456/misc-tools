@@ -20,6 +20,7 @@ dist/
 *.png
 *.jpg
 *.jpeg
+!assets/*.png
 input/
 output/
 

@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="assets/banner.png" alt="png2jpg banner" width="100%">
+
 # 📷 png2jpg
 
 **Convert PNG images to JPG. Single files, folders, or drag and drop.**
