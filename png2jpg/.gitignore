@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+
+# Build output (make exe, make release)
+build/
+dist/
+*.spec
+
+# Staging scratch (make stage-public, make check-public)
+.stagecheck/
+.stagetmp/
+
+# Images (test inputs/outputs)
+*.png
+*.jpg
+*.jpeg
+input/
+output/
+
+# Editor / OS / local tooling
+.vscode/
+.idea/
+.claude/
+.DS_Store
+Thumbs.db
+.env
