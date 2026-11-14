@@ -7,7 +7,7 @@
 **Convert WebP images to PNG. Single files, folders, or drag and drop.**
 
 [![Version](https://img.shields.io/badge/version-0.1.0-blue)](CHANGELOG.md)
-[![Release](https://img.shields.io/github/v/release/ThePotato456/misc-tools?filter=webp2png-py-*&label=release)](https://github.com/ThePotato456/misc-tools/releases?q=webp2png-py&expanded=true)
+[![Release](https://img.shields.io/github/v/release/ThePotato456/misc-tools?label=release)](https://github.com/ThePotato456/misc-tools/releases/latest)
 [![Platform](https://img.shields.io/badge/platform-Windows-0078D6?logo=windows&logoColor=white)](#install)
 [![Python](https://img.shields.io/badge/python-3.10%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![Pillow](https://img.shields.io/badge/built%20with-Pillow-informational)](https://python-pillow.org/)
@@ -46,7 +46,7 @@ Existing PNGs are skipped unless `-f` is given. Animated WebP files keep their f
 
 ## Install
 
-Download `webp2png.exe` from the [latest release](https://github.com/ThePotato456/misc-tools/releases?q=webp2png-py&expanded=true). No installer and no Python needed.
+Download `webp2png.exe` from the [latest release](https://github.com/ThePotato456/misc-tools/releases/latest). No installer and no Python needed.
 
 ## Build from source
 
@@ -66,7 +66,7 @@ python webp2png.py --help
 ## Links
 
 - [Changelog](CHANGELOG.md)
-- [All webp2png releases](https://github.com/ThePotato456/misc-tools/releases?q=webp2png-py&expanded=true)
+- [Latest release](https://github.com/ThePotato456/misc-tools/releases/latest)
 - [Other tools in misc-tools](https://github.com/ThePotato456/misc-tools)
 
 ---
