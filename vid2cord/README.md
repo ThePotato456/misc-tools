@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="assets/banner.png" alt="vid2cord banner" width="100%">
+
 # 🎬 vid2cord
 
 **Re-encode any video to fit Discord's upload size limit. Command line, or drag and drop.**
