@@ -6,7 +6,7 @@
 
 **Small, single-purpose utilities. One job each, no setup: drop files on the exe, or run it from the command line.**
 
-[![Tools](https://img.shields.io/badge/tools-3-blue)](#tools)
+[![Tools](https://img.shields.io/badge/tools-4-blue)](#tools)
 [![Python](https://img.shields.io/badge/python-3.10%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![Platform](https://img.shields.io/badge/platform-Windows-0078D6?logo=windows&logoColor=white)](#tools)
 [![Releases](https://img.shields.io/github/v/release/ThePotato456/misc-tools?label=latest%20release)](https://github.com/ThePotato456/misc-tools/releases)
@@ -19,6 +19,7 @@
 | Tool | What it does | Needs | Download |
 | --- | --- | --- | --- |
 | 🎬 [**vid2cord**](vid2cord-py/README.md) | Shrinks a video to fit Discord's upload limit | ffmpeg | [![vid2cord](https://img.shields.io/github/v/release/ThePotato456/misc-tools?label=vid2cord)](https://github.com/ThePotato456/misc-tools/releases/latest) |
+| 🎞️ [**vid2mp4**](vid2mp4-py/README.md) | Converts any video to MP4 (H.264 + AAC), window or command line, GPU encoding | ffmpeg | [![vid2mp4](https://img.shields.io/github/v/release/ThePotato456/misc-tools?label=vid2mp4)](https://github.com/ThePotato456/misc-tools/releases/latest) |
 | 🖼️ [**webp2png**](webp2png-py/README.md) | Converts WebP images to PNG | none | [![webp2png](https://img.shields.io/github/v/release/ThePotato456/misc-tools?label=webp2png)](https://github.com/ThePotato456/misc-tools/releases/latest) |
 | 📷 [**png2jpg**](png2jpg-py/README.md) | Converts PNG images to JPG | none | [![png2jpg](https://img.shields.io/github/v/release/ThePotato456/misc-tools?label=png2jpg)](https://github.com/ThePotato456/misc-tools/releases/latest) |
 
@@ -49,6 +50,26 @@ vid2cord clips -r             # every video under a folder
 ```
 
 Reads `.mp4 .mov .mkv .webm .avi .m4v .flv .wmv .ts`. [Full docs →](vid2cord-py/README.md)
+
+---
+
+### 🎞️ vid2mp4
+
+[![ffmpeg](https://img.shields.io/badge/requires-ffmpeg%20%2B%20ffprobe-007808?logo=ffmpeg&logoColor=white)](https://ffmpeg.org/download.html)
+
+Converts any common video to MP4 (H.264 + AAC) with `+faststart`. Comes as two programs: `vid2mp4-gui.exe` (a window) and `vid2mp4.exe` (command line).
+
+- Window with drag and drop, light and dark themes, per-file source info and progress, and settings remembered between runs.
+- GPU encoding by default (NVENC, Quick Sync or AMF), with `--cpu` for smaller x264 files.
+- Presets that stack (`mac`, `small`, `large`, `max`, ...); `mac` plays in QuickTime, Safari and iOS.
+- Copies streams that are already H.264 or AAC instead of re-encoding. Output: `<name>.mp4`.
+
+```
+vid2mp4 video.mkv --preset mac
+vid2mp4 folder -r -p mac,small   # every video under a folder
+```
+
+[Full docs →](vid2mp4-py/README.md)
 
 ---
 
